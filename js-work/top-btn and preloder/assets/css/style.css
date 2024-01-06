@@ -1,0 +1,20 @@
+.display-none{
+    display: none;
+}
+.d-none{
+    display: none;
+}
+.load-take {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 3px solid yellow;
+    animation: routate 1s ease-in-out infinite;
+}
+@keyframes routate {
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
